@@ -22,7 +22,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [14.x, 16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -35,8 +35,10 @@ jobs:
         cache-dependency-path: yarn.lock
     - run: sudo apt-get install libtool m4 make g++ autoconf # debian/ubuntu
     - run: |
-        make
+        make report
+    - run: |
+        make nvm
     - run: |
         make report
     - run: |
-        make all
+        make install run-build
