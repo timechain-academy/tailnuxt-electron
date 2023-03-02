@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "tailnuxt-electron.timechain.academy",
   "main": "./dist/main/index.js",
+  "private": true,
   "scripts": {
     "dev": "node .electron-nuxt/dev.js",
     "build": "node .electron-nuxt/build.js",
