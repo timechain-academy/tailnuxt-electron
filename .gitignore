@@ -4,5 +4,13 @@ build/*
 !build/icons
 node_modules
 
+#macos
+.DS_Store
+.electron-nuxt/.DS_Store
+.github/.DS_Store
+src/.DS_Store
+src/extraResources/.DS_Store
+src/main/.DS_Store
+src/renderer/.DS_Store
 
 yarn-error.log
