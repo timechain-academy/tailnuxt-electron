@@ -9,11 +9,11 @@
       </div>
     </div>
     <div class="e-nuxt-links">
-      <div class="e-nuxt-button" @click="openURL('https://github.com/michalzaq12/electron-nuxt')">
-        Github
+      <div class="e-nuxt-button" @click="openURL('https://github.com/timechain-academy')">
+        Github.com/timechain-academy
       </div>
-      <div class="e-nuxt-button" @click="openURL('https://nuxtjs.org/guide')">
-        Nuxt.js
+      <div class="e-nuxt-button" @click="openURL('https://github.com/timechain-academy/tailnuxt-electron')">
+        Github.com/timechain-academy/tailnuxt-electron
       </div>
       <div class="e-nuxt-button" @click="openURL('https://electronjs.org/docs')">
         Electron.js
